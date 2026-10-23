@@ -1,0 +1,6 @@
+| No. | Temuan | Perbaikan yang Diperlukan | Alasan |
+|---|---|---|---|
+| 1 | Aktor Mahasiswa diletakkan di dalam batas sistem. | Pindahkan aktor ke luar batas sistem. | Aktor merupakan representasi entitas eksternal yang berinteraksi dengan sistem, sehingga dalam UML Use Case selalu diletakkan di luar kotak system boundary. |
+| 2 | Fungsi Lihat Jadwal Kuliah digambar sebagai kotak biasa. | Ubah representasi fungsi menjadi bentuk elips. | Standar notasi UML untuk sebuah fungsi atau Use Case adalah elips/oval, sedangkan kotak biasanya digunakan untuk class atau batas sistem. |
+| 3 | Aktor Mahasiswa dihubungkan dengan Kelola Jadwal Kuliah. | Sesuaikan hubungan peran dan fungsi dengan menghapus garis yang menghubungkan Mahasiswa ke Kelola Jadwal Kuliah. | Berdasarkan skenario, mahasiswa tidak memiliki kewenangan untuk mengelola jadwal, sehingga tidak boleh dihubungkan ke fungsi tersebut. |
+| 4 | Identitas diagram menggunakan judul Sistem Laboratorium. | Perbaiki judul batas sistem menjadi **Sistem Informasi Akademik**. | Sistem yang sedang dimodelkan pada skenario ini adalah Sistem Informasi Akademik, bukan sistem laboratorium. |
