@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="f-edLRl3QZF3PttmZC8i">
+    <mxGraphModel dx="1144" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-1" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="mahasiswa" vertex="1">
+          <mxGeometry height="1420" width="380" x="330" y="280" as="geometry">
+            <mxRectangle height="30" width="70" x="150" y="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-2" edge="1" parent="3lFzVHyUw5EUvPnsMYGR-1" source="3lFzVHyUw5EUvPnsMYGR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="3lFzVHyUw5EUvPnsMYGR-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-3" parent="3lFzVHyUw5EUvPnsMYGR-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="membuka fungsi lihat ketersediaan peralatan" vertex="1">
+          <mxGeometry height="70" width="130" x="20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-4" parent="3lFzVHyUw5EUvPnsMYGR-1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="70" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-5" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="sistem" vertex="1">
+          <mxGeometry height="1420" width="425" x="710" y="280" as="geometry">
+            <mxRectangle height="30" width="70" x="150" y="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-6" edge="1" parent="3lFzVHyUw5EUvPnsMYGR-5" source="3lFzVHyUw5EUvPnsMYGR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="3lFzVHyUw5EUvPnsMYGR-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-7" parent="3lFzVHyUw5EUvPnsMYGR-5" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="melihat daftar peralatan beserta status ketersediaannya" vertex="1">
+          <mxGeometry height="60" width="150" x="100" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-8" edge="1" parent="3lFzVHyUw5EUvPnsMYGR-5" source="3lFzVHyUw5EUvPnsMYGR-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="3lFzVHyUw5EUvPnsMYGR-12" value="">
+          <mxGeometry relative="1" x="-0.1359" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="435" />
+              <mxPoint x="340" y="756.62" />
+            </Array>
+            <mxPoint x="379.55" y="489.99" as="sourcePoint" />
+            <mxPoint x="340" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-9" connectable="0" parent="3lFzVHyUw5EUvPnsMYGR-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="[tersedia]" vertex="1">
+          <mxGeometry relative="1" x="0.0967" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-10" edge="1" parent="3lFzVHyUw5EUvPnsMYGR-5" source="3lFzVHyUw5EUvPnsMYGR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="3lFzVHyUw5EUvPnsMYGR-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-11" parent="3lFzVHyUw5EUvPnsMYGR-5" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="peralatan tersedia" vertex="1">
+          <mxGeometry height="90" width="110" x="120" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-12" parent="3lFzVHyUw5EUvPnsMYGR-5" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="peralatan tersedia" vertex="1">
+          <mxGeometry height="90" width="110" x="120" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-13" edge="1" parent="3lFzVHyUw5EUvPnsMYGR-5" source="3lFzVHyUw5EUvPnsMYGR-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="3lFzVHyUw5EUvPnsMYGR-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-14" parent="3lFzVHyUw5EUvPnsMYGR-5" style="rounded=1;whiteSpace=wrap;html=1;" value="menampilkan pesan tidak ada peralatan yang tersedia" vertex="1">
+          <mxGeometry height="60" width="120" x="115" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-15" parent="3lFzVHyUw5EUvPnsMYGR-5" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="160" y="875" as="geometry" />
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-16" edge="1" parent="3lFzVHyUw5EUvPnsMYGR-5" source="3lFzVHyUw5EUvPnsMYGR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="3lFzVHyUw5EUvPnsMYGR-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3lFzVHyUw5EUvPnsMYGR-17" edge="1" parent="1" source="3lFzVHyUw5EUvPnsMYGR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="3lFzVHyUw5EUvPnsMYGR-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -5,7 +5,7 @@ Sumber kebutuhan : modul
 Jenis/status     : Use case diagram / relasi
 Kakas            : draw.io
 Pembuat          : Maulana Muhammad Zaki 2406028
-Versi dan tanggal : v01 / [19-10-2006]
+Versi dan tanggal : v01 / [19-10-2026]
 Asumsi           : Hak akses sesuai; autentikasi di luar latihan
 Pemeriksaan      : [hasil review]
 Riwayat revisi   : [perubahan yang benar-benar dilakukan]
